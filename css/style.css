@@ -1,0 +1,189 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #717A81;
+}
+
+header{
+	background-color: #000;
+	padding: 20px 0;
+}
+	
+	
+#hero{
+	background-image:url(../img/v36-intro.jpg);
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+	padding:100px 0px;
+	color:#fff;
+
+}
+
+#hero h1{
+	font-size: 60px;
+	font-weight:600;
+}
+
+#hero h2{
+	font-size:24px;
+	margin-top:40px;
+	margin-bottom:50px;
+	color:#cacaca;
+}
+
+#hero .btn-primary,
+#products .btn-primary,
+.btn-azul{
+	text-transform:uppercase;
+	padding: 20px 40px;
+	font-weight:600;
+	letter-spacing: 1px;
+	border-radius: 40px;
+
+}
+
+.title{
+	font-weight:700;
+	text-align:center;
+	font-size:50px;
+}
+
+.subtitle{
+	font-size:24px;
+	text-align:center;
+	margin-bottom:40px;
+}
+
+.section{
+	padding:60px 0;
+}
+
+#what{
+	text-align:center;
+}
+
+#what article h4{
+	font-size:16px;
+	font-weight:600;
+	text-transform:uppercase;
+	color:#303132;
+	letter-spacing:1px;
+}
+
+#products{
+	background-color: #000;
+	color: #fff;
+}
+
+#products .title{
+	text-align:left;
+	color:#FFFFFF;
+}
+	
+#products .subtitle{
+	text-align:left;
+	color:#717A81;
+	font-size:18px;
+}
+
+.title-ptop{
+	padding-top:80px;
+}
+
+#pods .title{
+	text-align: left;
+	margin-top: 130px;
+	margin-bottom: 5px;
+}
+
+
+#pods h3{
+	text-transform: uppercase;
+	color: #3B34E0;
+	font-size: 13px;
+	text-align: left;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+#pods p{
+	font-size: 20px;
+	text-align: left;
+	padding: 20px 0px;
+}
+
+.btn-azul{
+	padding: 10px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	background-color: #3B34E0;
+}
+
+.btn-blanco{
+	padding: 10px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	background-color: #fff;
+	border: 2px solid #ccc;
+	color:#ccc;
+	border-radius: 40px;
+	text-transform: uppercase;
+}
+
+.btn-blanco:hover{
+	background-color: #3B34E0;
+}
+
+#reviews{
+	background-color: #4859fc;
+	text-align: center;
+}
+
+#reviews .title{
+	color: #fff;
+	margin-bottom: 80px;
+}
+
+#reviews article{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+#reviews .info-review{
+	background-color: #fff;
+	padding: 30px 15px;
+	box-shadow: 0px 0px 20px 2px #283ea7;
+}
+
+.info-review h3{
+	color: #203132;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.info-review h4{
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.info-review p{
+	font-size: 16px;
+}
+
+#reviews article:first-child{
+	margin-top: 0px;
+}
+
+#reviews article:last-child{
+	margin-top: 0px;
+}
+
+#reviews article:nth-child(2){
+	margin-top: -25px;
+	
+}
